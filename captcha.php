@@ -35,6 +35,6 @@ for ($i = 0; $i < 50; $i++) {
 
 // Output image
 header('Content-type: image/png');
-imagepng('/tranigdata/captcha.png);
+$imagepng'/tranigdata/captcha.png';
 imagedestroy($image);
 ?>
