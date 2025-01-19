@@ -1,11 +1,17 @@
-<form name="form" method="post" action="">
-    <label><strong>Enter Captcha:</strong></label><br />
-    <input type="text" name="captcha" />
-    <p><br />
-    <img src="captcha.php?rand=<?php echo rand(); ?>" id='captcha_image'>
-    </p>
-    <p>Can't read the image?
-    <a href='javascript: refreshCaptcha();'>click here</a>
-    to refresh</p>
-    <input type="submit" name="submit" value="Submit">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PigeonCapcha verify</title>
+</head>
+<body>
+
+    <form method="post" action="verify.php">
+        <img src="captcha.php" alt="CAPTCHA">
+        <br>
+        <input type="text" name="captcha" placeholder="Enter CAPTCHA">
+        <br>
+        <button type="submit">Submit</button>
     </form>
+
+</body>
+</html>
