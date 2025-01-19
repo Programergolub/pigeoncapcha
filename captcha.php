@@ -19,7 +19,7 @@ $background_color = imagecolorallocate($image, 255, 255, 255); // White backgrou
 imagefill($image, 0, 0, $background_color);
 
 // Set font
-$font_path = './ttfher/Amagra.ttf'; // Replace with the actual path to your font file
+$font_path = '/ttfher/Amagro.ttf'; // Replace with the actual path to your font file
 $font_size = 20;
 $font_color = imagecolorallocate($image, 0, 0, 0); // Black text
 
